@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #232323;
+  font-family: "Raleway";
+}
+
+h1 {
+  margin: 0;
+  width: 100%;
+  background-color: steelblue;
+  text-align: center;
+  height: 140px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 2em;
+  line-height: 1.4em;
+  font-weight: 400;
+  transition: all 0.8s;
+}
+h1 span{
+  font-size: 1.4em;
+  font-weight: 500;
+}
+#colorDisplay {
+  display: block;
+}
+#container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+.squares {
+  padding-bottom: 30%;
+  background-color: purple;
+  float: left;
+  width: 30%;
+  margin: 1.66%;
+  border-radius: 15%;
+  transition: all 0.8s;
+}
+#stripe {
+  width: 100%;
+  background-color: white;
+  margin-top: 0;
+  text-align: center;
+}
+.visible {
+  display: none;
+}
+#div-1 {
+  display: flex;
+  width: 59%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+#reset {
+  color: steelblue;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  font-family: "Raleway";
+  transition-property: all;
+  background-color: white;
+  
+}
+#reset:hover{
+  background-color: steelblue;
+  color: white;
+}
+
+button {
+  border: none;
+  outline: none;
+  height: 100%;
+  color: steelblue;
+  font-weight: 600;
+  font-size: 1em;
+  background-color: white;
+  transition-property: all;
+  transition-duration: 0.8s;
+}
+button:hover{
+  background-color: steelblue;
+  color: white;
+}
+
+.selected {
+  background-color: steelblue;
+  color: white;
+}
+
+@media screen and (max-width: 414px){
+  h1{
+    font-size: 1.8em
+  }
+  h1 span{
+font-size: 1.2em;
+  }
+  #div-1{
+    width: 80%;
+  }
+  #container{
+    margin: 40px auto;
+  }
+
+}
+@media screen and (max-width: 375px){
+  #div-1{
+    width: 95%;
+  }
+
+}
